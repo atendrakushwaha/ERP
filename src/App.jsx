@@ -2,7 +2,8 @@ import { createBrowserRouter } from "react-router-dom";
 import "./App.css";
 import Login from "./pages/commonPages/Login";
 import Layout from "./pages/superAdmin/Layout";
-import Dashboard from "./pages/superAdmin/home/Dashboard";
+// import Dashboard from "./pages/superAdmin/dashboard/Dashboard";
+
 
 
 
@@ -15,12 +16,12 @@ export const App = createBrowserRouter([
     path: "admin/",
     element: <Layout />,
     // errorElement: <ErrorPage />,
-    children : [
-      {
-        path : "dashboard",
-        element : <Dashboard />
-      }
-    ]
+    // children : [
+    //   {
+    //     path : "dashboard",
+    //     element : <Dashboard />
+    //   }
+    // ]
   }
 
   // {
