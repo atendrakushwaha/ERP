@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Sidebar from "../../components/dashboard/Sidebar";
+import Sidebar from "../../components/Sidebar";
 import { AiFillLeftCircle } from "react-icons/ai";
 import { Outlet, useLocation } from "react-router-dom";
 

@@ -28,7 +28,7 @@ const Login = () => {
       localStorage.setItem('isAuthenticated', 'true');
 
       // Redirect to admin dashboard
-      navigate('/admin/');
+      navigate('/admin/dashboard');
     } else {
       setError('Invalid username or password');
     }
